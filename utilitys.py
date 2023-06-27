@@ -34,7 +34,7 @@ def config_loader():
 
 
 def input_loader():
-    url_input = search(r'(https?:\/\/t\.me\/)?([^/]+)/(\d+)', input(' [ INPUT ] Enter Post URL: '))
+    url_input = search(r'(https?:\/\/t\.me\/)?([^/]+)/(\d+)', ('https://t.me/LegendxTricks/10'))
     if url_input: 
         _, channel, post = url_input.groups()
         return channel, post

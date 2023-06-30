@@ -7,7 +7,7 @@ from re import search
 from sys import exit
 
 
-THREADS = 2000
+THREADS = 400
 LOGO = '''
    ~ Telegram Auto Views V3 ~
      ~ github.com/TeaByte ~

@@ -34,7 +34,7 @@ def config_loader():
 
 
 def input_loader():
-    url_input = search(r'(https?:\/\/t\.me\/)?([^/]+)/(\d+)', ('https://t.me/sjsjsish/2'))
+    url_input = search(r'(https?:\/\/t\.me\/)?([^/]+)/(\d+)', ('https://t.me/DotexBots/49'))
     if url_input: 
         _, channel, post = url_input.groups()
         return channel, post
